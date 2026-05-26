@@ -1,5 +1,3 @@
-// Cvecara Iris - glavna skripta, 2026
-
 var PREVODI = {
     sr: {
         // Navigacija
