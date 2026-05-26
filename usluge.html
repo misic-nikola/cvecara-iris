@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Usluge Cvećare Iris - buketi, venčanski aranžmani, sahranički aranžmani, dekoracija i dostava cveća u Zrenjaninu.">
+    <meta name="keywords" content="usluge cvećare, buketi, venčanje cveće, sahrana cveće, dekoracija, dostava, aranžmani Zrenjanin">
+    <meta name="author" content="Cvećara Iris">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Usluge - Cvećara Iris">
+    <meta property="og:type" content="website">
+    <meta name="DC.title" content="Usluge - Cvećara Iris">
+    <meta name="DC.language" content="sr">
+    <title>Usluge - Cvećara Iris</title>
+    <link rel="stylesheet" href="biblioteke/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stil.css">
+    <link rel="icon" type="image/svg+xml" href="slike/logo.svg">
+    <style>
+        .hero-usluge { background:linear-gradient(135deg,var(--primarna) 0%,var(--sekundarna) 100%); padding:75px 0; color:white; text-align:center; }
+        .hero-usluge h1 { color:white; font-size:2.8rem; }
+        .card-img-top { height:200px; object-fit:cover; }
+    </style>
+</head>
+<body>
+
+<header class="nav-zaglavlje" role="banner">
+    <nav class="nav-sadrzaj" role="navigation" aria-label="Glavna navigacija">
+        <a href="pocetna.html" class="nav-logo">
+            <img src="slike/logo.svg" alt="Logo Cvećare Iris" width="38" height="38">
+            <span data-prevod="nav_naziv">Cvećara Iris</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Otvori meni" aria-expanded="false" aria-controls="nav-lista">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-lista" id="nav-lista">
+            <li><a href="pocetna.html" data-prevod="nav_pocetna">Početna</a></li>
+            <li><a href="o-nama.html" data-prevod="nav_o_nama">O nama</a></li>
+            <li><a href="usluge.html" class="aktivan" data-prevod="nav_usluge">Usluge</a></li>
+            <li><a href="kontakt.html" data-prevod="nav_kontakt">Kontakt</a></li>
+            <li><a href="#" class="dugme-jezik" id="btn-jezik" data-prevod="dugme_jezik">English</a></li>
+        </ul>
+        <div class="pristupacnost-kontrole">
+            <button class="btn-tema" id="btn-tema" data-prevod="btn_tema">Tamna</button>
+            <button class="btn-font" id="btn-font-veci">A+</button>
+            <button class="btn-font" id="btn-font-manji">A-</button>
+        </div>
+    </nav>
+</header>
+
+<main role="main">
+
+    <section class="hero-usluge">
+        <div class="container">
+            <h1 class="fw-bold mb-3" data-prevod="usluge_naslov">Naše usluge</h1>
+            <p class="lead mb-4" data-prevod="usluge_podnaslov">Pronađite savršen cvetni poklon za svaku prigodu</p>
+            <span class="badge-iris me-2" data-prevod="bedz1">Sveže cveće</span>
+            <span class="badge-iris me-2" data-prevod="bedz2">Brza dostava</span>
+            <span class="badge-iris" data-prevod="bedz3">Individualni pristup</span>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-iris" data-prevod="sta_nudimo">Šta nudimo</h2>
+                <p class="text-muted" data-prevod="klikni_vise">Kliknite na uslugu za više informacija</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="slike/usluga-buket.jpg" class="card-img-top" alt="Buket ruža raznih boja">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title" data-prevod="ukrasni_aranzmani">Buketi i aranžmani</h5>
+                            <p class="card-text flex-grow-1" data-prevod="kartica1_tekst">Ručno pravljeni buketi od svežeg sezonskog cveća. Idealni za rodjendane, godišnjice i poklone.</p>
+                            <div class="mt-3"><span class="badge-iris" data-prevod="cena1">od 1.200 RSD</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="slike/usluga-vencanje.jpg" class="card-img-top" alt="Cvetni luk za venčanje">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title" data-prevod="vencanja">Venčanja</h5>
+                            <p class="card-text flex-grow-1" data-prevod="kartica2_tekst">Kompletna cvetna dekoracija za vaš najlepši dan. Buket za mladu, dekoracija stola i cvetni luk.</p>
+                            <div class="mt-3"><span class="badge-iris" data-prevod="cena2">od 8.000 RSD</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="slike/usluga-dekoracija.jpg" class="card-img-top" alt="Cvetni aranžman u vazi">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title" data-prevod="dekoracija_naslov">Dekoracija prostora</h5>
+                            <p class="card-text flex-grow-1" data-prevod="kartica3_tekst">Ulepšajte vaš dom ili poslovni prostor sa našim ukrasnim kompozicijama.</p>
+                            <div class="mt-3"><span class="badge-iris" data-prevod="cena3">od 2.500 RSD</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="slike/usluga-dostava.jpg" class="card-img-top" alt="Dostava cveća na kućnu adresu">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title" data-prevod="dostava">Dostava cveća</h5>
+                            <p class="card-text flex-grow-1" data-prevod="kartica4_tekst">Brza i pouzdana dostava svežeg cveća na vašu adresu u Zrenjaninu i okolini.</p>
+                            <div class="mt-3"><span class="badge-iris" data-prevod="cena4">300 RSD dostava</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background-color:var(--pozad-sek);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-iris" data-prevod="cenovnik_naslov">Cenovnik</h2>
+                <p class="text-muted" data-prevod="cenovnik_napomena">Informativne cene — kontaktirajte nas za individualnu ponudu</p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover tabela-cenovnik">
+                    <thead>
+                        <tr>
+                            <th data-prevod="tabela_kol1">Usluga / Proizvod</th>
+                            <th data-prevod="tabela_kol2">Opis</th>
+                            <th class="text-end" data-prevod="tabela_kol3">Cena (RSD)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td data-prevod="red1_naziv"><strong>Buket ruža (10 kom.)</strong></td><td data-prevod="red1_opis">Sveže crvene, bele ili roze ruže</td><td class="text-end" data-prevod="red1_cena">od 1.500</td></tr>
+                        <tr><td data-prevod="red2_naziv"><strong>Buket mešanog cveća</strong></td><td data-prevod="red2_opis">Sezonsko cveće po izboru</td><td class="text-end" data-prevod="red2_cena">od 1.200</td></tr>
+                        <tr><td data-prevod="red3_naziv"><strong>Venčani buket za mladu</strong></td><td data-prevod="red3_opis">Belo cveće, kaskadni ili okrugli stil</td><td class="text-end" data-prevod="red3_cena">od 8.000</td></tr>
+                        <tr><td data-prevod="red4_naziv"><strong>Dekoracija venčanog stola</strong></td><td data-prevod="red4_opis">Centerpiece, niski ili visoki aranžman</td><td class="text-end" data-prevod="red4_cena">od 5.000</td></tr>
+                        <tr><td data-prevod="red5_naziv"><strong>Cvetni luk</strong></td><td data-prevod="red5_opis">Sveže cveće, 2x2 m luk</td><td class="text-end" data-prevod="red5_cena">od 25.000</td></tr>
+                        <tr><td data-prevod="red6_naziv"><strong>Sahranički aranžman</strong></td><td data-prevod="red6_opis">Venac ili visoki aranžman</td><td class="text-end" data-prevod="red6_cena">od 3.000</td></tr>
+                        <tr><td data-prevod="red7_naziv"><strong>Ukrasna kompozicija za dom</strong></td><td data-prevod="red7_opis">Mešano cveće u vazi ili korpi</td><td class="text-end" data-prevod="red7_cena">od 2.500</td></tr>
+                        <tr><td data-prevod="red8_naziv"><strong>Dostava</strong></td><td data-prevod="red8_opis">Zrenjanin i okolina (do 20 km)</td><td class="text-end"><strong data-prevod="red8_cena">300</strong></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-center mt-3">
+                <a href="dokumenti/cenovnik.pdf" class="dokument-link" target="_blank" data-prevod="btn_cenovnik">Preuzmite kompletan cenovnik (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-iris" data-prevod="faq_naslov">Često postavljena pitanja</h2>
+            </div>
+            <div class="accordion" id="faqAkordejon" style="max-width:780px;margin:0 auto;">
+                <div class="accordion-item mb-2">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+                            <span data-prevod="faq1_pitanje">Kako da naručim cveće?</span>
+                        </button>
+                    </h3>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAkordejon">
+                        <div class="accordion-body" data-prevod="faq1_odgovor">
+                            Cveće možete naručiti pozivom na broj +381 23 123 456, putem emaila info@cvecarairis.rs ili popunjavanjem forme na stranici Kontakt.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-2">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false">
+                            <span data-prevod="faq2_pitanje">Koliko unapred treba naručiti za venčanje?</span>
+                        </button>
+                    </h3>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAkordejon">
+                        <div class="accordion-body" data-prevod="faq2_odgovor">
+                            Za venčanja preporučujemo narudžbinu najmanje 2–3 meseca unapred, posebno za letnju sezonu. Konsultacija je besplatna.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-2">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false">
+                            <span data-prevod="faq3_pitanje">Da li dostavljate van Zrenjanina?</span>
+                        </button>
+                    </h3>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAkordejon">
+                        <div class="accordion-body" data-prevod="faq3_odgovor">
+                            Redovna dostava je u granicama Zrenjanina. Za mesta do 20 km dostava je moguća uz dogovor i prilagođenu cenu.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-2">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false">
+                            <span data-prevod="faq4_pitanje">Kako da čuvam cveće da duže traje?</span>
+                        </button>
+                    </h3>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAkordejon">
+                        <div class="accordion-body" data-prevod="faq4_odgovor">
+                            Preporučujemo: sveža voda svaka 2 dana, dijagonalno rezanje stabljike i čuvanje na hladnom mestu. Uz svaki buket dobijate prašak za cveće.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-4">
+        <div class="container">
+            <div class="alert text-center" style="background:linear-gradient(135deg,var(--primarna),var(--sekundarna));color:white;border:none;border-radius:var(--r-v);padding:28px;">
+                <h4 class="alert-heading mb-3" data-prevod="cta_naslov">Niste pronašli šta tražite?</h4>
+                <p class="mb-3" data-prevod="cta_tekst">Kontaktirajte nas i napravićemo individualni aranžman prema vašim željama.</p>
+                <a href="kontakt.html" class="btn-obris" data-prevod="btn_kontakt">Kontaktirajte nas</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer role="contentinfo">
+    <div class="footer-grid">
+        <div class="footer-kolona">
+            <h3 data-prevod="nav_naziv">Cvećara Iris</h3>
+            <p data-prevod="footer_opis">Cveće koje govori iz srca. Vaš pouzdani partner za sve cvećarske usluge u Zrenjaninu od 2013. godine.</p>
+        </div>
+        <div class="footer-kolona">
+            <h3 data-prevod="footer_nav_naslov">Navigacija</h3>
+            <ul>
+                <li><a href="pocetna.html" data-prevod="nav_pocetna">Početna</a></li>
+                <li><a href="o-nama.html" data-prevod="nav_o_nama">O nama</a></li>
+                <li><a href="usluge.html" data-prevod="nav_usluge">Usluge</a></li>
+                <li><a href="kontakt.html" data-prevod="nav_kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="footer-kolona">
+            <h3 data-prevod="nav_kontakt">Kontakt</h3>
+            <p data-prevod="footer_adresa">Adresa: Ulica cveća 12, Zrenjanin</p>
+            <p data-prevod="footer_tel">Telefon: +381 23 123 456</p>
+            <p data-prevod="footer_email">Email: info@cvecarairis.rs</p>
+        </div>
+        <div class="footer-kolona">
+            <h3 data-prevod="radno_label">Radno vreme</h3>
+            <p data-prevod="footer_radno">Pon–Sub: 08:00–20:00, Ned: 09:00–15:00</p>
+        </div>
+    </div>
+    <div class="footer-dno">
+        <p>&copy; 2026 Cvećara Iris. <span data-prevod="footer_prava">Sva prava zadržana.</span></p>
+    </div>
+</footer>
+
+<script src="biblioteke/bootstrap.bundle.min.js"></script>
+<script src="biblioteke/jquery.min.js"></script>
+<script src="js/skripta.js"></script>
+</body>
+</html>

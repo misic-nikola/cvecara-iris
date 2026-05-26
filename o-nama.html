@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Upoznajte tim Cvećare Iris - porodična cvećara sa više od 10 godina tradicije u Zrenjaninu.">
+    <meta name="keywords" content="o nama, cvećara iris, tim, istorija, Zrenjanin, tradicija">
+    <meta name="author" content="Cvećara Iris">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="O nama - Cvećara Iris">
+    <meta property="og:type" content="website">
+    <meta name="DC.title" content="O nama - Cvećara Iris">
+    <meta name="DC.language" content="sr">
+    <title>O nama - Cvećara Iris</title>
+    <link rel="stylesheet" href="css/stil.css">
+    <link rel="icon" type="image/svg+xml" href="slike/logo.svg">
+</head>
+<body>
+
+<header class="nav-zaglavlje" role="banner">
+    <nav class="nav-sadrzaj" role="navigation" aria-label="Glavna navigacija">
+        <a href="pocetna.html" class="nav-logo">
+            <img src="slike/logo.svg" alt="Logo Cvećare Iris" width="38" height="38">
+            <span data-prevod="nav_naziv">Cvećara Iris</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Otvori meni" aria-expanded="false" aria-controls="nav-lista">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-lista" id="nav-lista">
+            <li><a href="pocetna.html" data-prevod="nav_pocetna">Početna</a></li>
+            <li><a href="o-nama.html" class="aktivan" data-prevod="nav_o_nama">O nama</a></li>
+            <li><a href="usluge.html" data-prevod="nav_usluge">Usluge</a></li>
+            <li><a href="kontakt.html" data-prevod="nav_kontakt">Kontakt</a></li>
+            <li><a href="#" class="dugme-jezik" id="btn-jezik" data-prevod="dugme_jezik">English</a></li>
+        </ul>
+        <div class="pristupacnost-kontrole">
+            <button class="btn-tema" id="btn-tema" data-prevod="btn_tema">Tamna</button>
+            <button class="btn-font" id="btn-font-veci">A+</button>
+            <button class="btn-font" id="btn-font-manji">A-</button>
+        </div>
+    </nav>
+</header>
+
+<main role="main">
+
+    <section style="background:linear-gradient(135deg,var(--primarna) 0%,var(--akcent) 100%);padding:75px 20px;text-align:center;color:white;">
+        <div class="kontejner">
+            <h1 style="color:white;font-size:2.8rem;margin-bottom:14px;" data-prevod="o_nama_naslov">O nama</h1>
+            <p style="font-size:1.15rem;opacity:0.9;max-width:580px;margin:0 auto;" data-prevod="o_nama_podnaslov">
+                Upoznajte ljude iza Cvećare Iris i priču koja nas inspiriše svakog dana
+            </p>
+        </div>
+    </section>
+
+    <section class="sekcija">
+        <div class="kontejner">
+            <div class="dobrodoslica">
+                <div class="dobrodoslica-tekst">
+                    <h2 data-prevod="nasa_prica_naslov">Naša priča</h2>
+                    <p data-prevod="nasa_prica_t1">Cvećara Iris osnovana je 2013. godine sa jednostavnom misijom — doneti radost i lepotu u svaki dom. Krenuli smo od male radnje u centru Zrenjanina, a danas smo jedna od najprepoznatljivijih cvećara u gradu.</p>
+                    <p data-prevod="nasa_prica_t2">Ime Iris nije slučajno odabrano. Iris je cvet koji simbolizuje mudrost, pouzdanost i divljenje — vrednosti koje ugrađujemo u svaki aranžman koji izlazi iz naše radnje.</p>
+                    <p data-prevod="nasa_prica_t3">Tokom godina izgradili smo tim stručnih cvećara koji svaki aranžman tretiraju kao umetničko delo.</p>
+                    <a href="kontakt.html" class="btn-primarno" style="margin-top:10px;" data-prevod="btn_poseti_nas">Posetite nas</a>
+                </div>
+                <div class="dobrodoslica-slika-kontejner">
+                    <img src="slike/dobrodoslica.jpg" class="dobrodoslica-slika" alt="Sveže cveće u cvećari Iris" width="800" height="550">
+                    <div class="oznaka-iskustvo">
+                        <span class="broj">2013</span>
+                        <span class="opis" data-prevod="oznaka_osnovana">osnovana</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sekcija sekcija-svetla">
+        <div class="kontejner">
+            <div class="sekcija-naslov">
+                <h2 data-prevod="nase_vrednosti_naslov">Naše vrednosti</h2>
+                <p data-prevod="vrednosti_podnaslov">Principi koji nas vode u radu svakog dana</p>
+            </div>
+            <div class="vrednosti-grid">
+                <div class="vrednost-stavka animacija-pojava">
+                    <span class="vrednost-ikona" style="color:var(--primarna);font-size:2rem;">&#9670;</span>
+                    <h3 data-prevod="vrednost1_naslov">Svežina</h3>
+                    <p data-prevod="vrednost1_tekst">Cveće nabavljamo svakodnevno od proverenih dobavljača. Svaki buket sadrži isključivo sveže rezano cveće.</p>
+                </div>
+                <div class="vrednost-stavka animacija-pojava">
+                    <span class="vrednost-ikona" style="color:var(--akcent);font-size:2rem;">&#9670;</span>
+                    <h3 data-prevod="vrednost2_naslov">Održivost</h3>
+                    <p data-prevod="vrednost2_tekst">Koristimo ekološki prihvatljive materijale za pakovanje i sarađujemo sa lokalnim uzgajivačima cveća.</p>
+                </div>
+                <div class="vrednost-stavka animacija-pojava">
+                    <span class="vrednost-ikona" style="color:var(--primarna);font-size:2rem;">&#9670;</span>
+                    <h3 data-prevod="vrednost3_naslov">Kreativnost</h3>
+                    <p data-prevod="vrednost3_tekst">Svaki aranžman je jedinstven. Slušamo vaše želje i stvaramo nešto posebno upravo za vas.</p>
+                </div>
+                <div class="vrednost-stavka animacija-pojava">
+                    <span class="vrednost-ikona" style="color:var(--akcent);font-size:2rem;">&#9670;</span>
+                    <h3 data-prevod="vrednost4_naslov">Pouzdanost</h3>
+                    <p data-prevod="vrednost4_tekst">Dostavljamo na vreme, bez izuzetaka. Vaše poverenje nam je najvažnija nagrada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="info-baner">
+        <div class="kontejner">
+            <h2 data-prevod="statistike_naslov">Cvećara Iris u brojevima</h2>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:28px;text-align:center;margin-top:28px;">
+                <div>
+                    <div style="font-size:2.8rem;font-family:var(--font-n);font-weight:700;">10+</div>
+                    <div style="opacity:0.85;" data-prevod="stat1">godina iskustva</div>
+                </div>
+                <div>
+                    <div style="font-size:2.8rem;font-family:var(--font-n);font-weight:700;">5000+</div>
+                    <div style="opacity:0.85;" data-prevod="stat2">zadovoljnih kupaca</div>
+                </div>
+                <div>
+                    <div style="font-size:2.8rem;font-family:var(--font-n);font-weight:700;">200+</div>
+                    <div style="opacity:0.85;" data-prevod="stat3">venčanja ukrašena</div>
+                </div>
+                <div>
+                    <div style="font-size:2.8rem;font-family:var(--font-n);font-weight:700;">3</div>
+                    <div style="opacity:0.85;" data-prevod="stat4">stručna cvećara</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer role="contentinfo">
+    <div class="footer-grid">
+        <div class="footer-kolona">
+            <h3 data-prevod="nav_naziv">Cvećara Iris</h3>
+            <p data-prevod="footer_opis">Cveće koje govori iz srca. Vaš pouzdani partner za sve cvećarske usluge u Zrenjaninu od 2013. godine.</p>
+        </div>
+        <div class="footer-kolona">
+            <h3 data-prevod="footer_nav_naslov">Navigacija</h3>
+            <ul>
+                <li><a href="pocetna.html" data-prevod="nav_pocetna">Početna</a></li>
+                <li><a href="o-nama.html" data-prevod="nav_o_nama">O nama</a></li>
+                <li><a href="usluge.html" data-prevod="nav_usluge">Usluge</a></li>
+                <li><a href="kontakt.html" data-prevod="nav_kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="footer-kolona">
+            <h3 data-prevod="nav_kontakt">Kontakt</h3>
+            <p data-prevod="footer_adresa">Adresa: Ulica cveća 12, Zrenjanin</p>
+            <p data-prevod="footer_tel">Telefon: +381 23 123 456</p>
+            <p data-prevod="footer_email">Email: info@cvecarairis.rs</p>
+        </div>
+        <div class="footer-kolona">
+            <h3 data-prevod="radno_label">Radno vreme</h3>
+            <p data-prevod="footer_radno">Pon–Sub: 08:00–20:00, Ned: 09:00–15:00</p>
+        </div>
+    </div>
+    <div class="footer-dno">
+        <p>&copy; 2026 Cvećara Iris. <span data-prevod="footer_prava">Sva prava zadržana.</span></p>
+    </div>
+</footer>
+
+<script src="biblioteke/jquery.min.js"></script>
+<script src="js/skripta.js"></script>
+</body>
+</html>

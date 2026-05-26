@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <!-- Transparentna pozadina - logo Cvećare Iris -->
+  <!-- Iris cvet - stilizovana ikonа -->
+  <!-- Gornja latica -->
+  <ellipse cx="25" cy="14" rx="7" ry="13" fill="#8b4a6b"/>
+  <!-- Leva latica -->
+  <ellipse cx="14" cy="30" rx="13" ry="7" fill="#c97b9e" transform="rotate(-30,14,30)"/>
+  <!-- Desna latica -->
+  <ellipse cx="36" cy="30" rx="13" ry="7" fill="#c97b9e" transform="rotate(30,36,30)"/>
+  <!-- Unutrašnji detalji -->
+  <ellipse cx="25" cy="18" rx="4" ry="8" fill="#f5e6ee"/>
+  <ellipse cx="16" cy="29" rx="8" ry="3.5" fill="#f5e6ee" transform="rotate(-30,16,29)"/>
+  <ellipse cx="34" cy="29" rx="8" ry="3.5" fill="#f5e6ee" transform="rotate(30,34,29)"/>
+  <!-- Centar -->
+  <circle cx="25" cy="27" r="6" fill="#5a7a3a"/>
+  <circle cx="25" cy="27" r="3" fill="#8aaa5a"/>
+  <!-- Stabljika -->
+  <line x1="25" y1="33" x2="25" y2="47" stroke="#5a7a3a" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="18" cy="42" rx="5" ry="9" fill="#5a7a3a" transform="rotate(-30,18,42)"/>
+</svg>
