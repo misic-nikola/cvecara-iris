@@ -293,7 +293,7 @@ footer { background-color: var(--footer); color: #ccc; padding: 48px 20px 18px; 
 .dokument-link:hover { background: var(--primarna); color: white; border-color: var(--primarna); }
 
 /* --- BOOTSTRAP DORADE (usluge.html) --- */
-.bg-iris-primary { background-color: var(--primarna) !important; }
+.pozad-iris { background-color: var(--primarna) !important; }
 .tekst-iris { color: var(--primarna) !important; }
 .btn-iris {
     background-color: var(--primarna); color: white; border: none;
