@@ -3,6 +3,10 @@ var PREVODI = {
         // Navigacija
         nav_naziv: "Cvećara Iris", nav_pocetna: "Početna", nav_o_nama: "O nama",
         nav_usluge: "Usluge", nav_kontakt: "Kontakt", dugme_jezik: "English",
+        pod_buketi: "Buketi i aranžmani",
+        pod_vencanja: "Venčanja",
+        pod_dekoracija: "Dekoracija prostora",
+        pod_dostava: "Dostava cveća",
         btn_tema: "Tamna",
         // Početna - hero
         hero_naslov: "Cvećara Iris", hero_podnaslov: "Cveće koje govori iz srca",
@@ -98,6 +102,10 @@ var PREVODI = {
     en: {
         nav_naziv: "Iris Flower Shop", nav_pocetna: "Home", nav_o_nama: "About Us",
         nav_usluge: "Services", nav_kontakt: "Contact", dugme_jezik: "Srpski",
+        pod_buketi: "Bouquets & Arrangements",
+        pod_vencanja: "Weddings",
+        pod_dekoracija: "Space Decoration",
+        pod_dostava: "Flower Delivery",
         btn_tema: "Dark",
         hero_naslov: "Iris Flower Shop", hero_podnaslov: "Flowers that speak from the heart",
         hero_dugme: "Browse our selection",
