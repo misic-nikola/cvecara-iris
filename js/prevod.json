@@ -150,7 +150,11 @@
     "greska_datum": "Datum ne može biti u prošlosti.",
     "greska_poruka": "Unesite poruku (najmanje 10 karaktera).",
     "greska_saglasnost": "Morate prihvatiti uslove.",
-    "poruka_uspeh": "Hvala! Vaša poruka je uspešno poslata. Javićemo vam se u najkraćem roku."
+    "poruka_uspeh": "Hvala! Vaša poruka je uspešno poslata. Javićemo vam se u najkraćem roku.",
+    "pod_buketi": "Buketi i aranžmani",
+    "pod_vencanja": "Venčanja",
+    "pod_dekoracija": "Dekoracija prostora",
+    "pod_dostava": "Dostava cveća"
   },
   "en": {
     "nav_naziv": "Iris Flower Shop",
@@ -303,6 +307,10 @@
     "greska_datum": "Date cannot be in the past.",
     "greska_poruka": "Please enter a message (at least 10 characters).",
     "greska_saglasnost": "You must accept the terms.",
-    "poruka_uspeh": "Thank you! Your message has been sent successfully. We will get back to you shortly."
+    "poruka_uspeh": "Thank you! Your message has been sent successfully. We will get back to you shortly.",
+    "pod_buketi": "Bouquets & Arrangements",
+    "pod_vencanja": "Weddings",
+    "pod_dekoracija": "Space Decoration",
+    "pod_dostava": "Flower Delivery"
   }
 }
