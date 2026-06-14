@@ -294,13 +294,13 @@ footer { background-color: var(--footer); color: #ccc; padding: 48px 20px 18px; 
 
 /* --- BOOTSTRAP DORADE (usluge.html) --- */
 .bg-iris-primary { background-color: var(--primarna) !important; }
-.text-iris { color: var(--primarna) !important; }
+.tekst-iris { color: var(--primarna) !important; }
 .btn-iris {
     background-color: var(--primarna); color: white; border: none;
     border-radius: 30px; padding: 10px 24px; transition: var(--tr); font-weight: 600;
 }
 .btn-iris:hover { background-color: var(--sekundarna); color: white; }
-.badge-iris { background-color: var(--svetla); color: var(--primarna); font-weight: 600; padding: 6px 12px; border-radius: 20px; font-size: 0.83rem; }
+.oznaka-iris { background-color: var(--svetla); color: var(--primarna); font-weight: 600; padding: 6px 12px; border-radius: 20px; font-size: 0.83rem; }
 .card { border: none !important; border-radius: var(--r-v) !important; box-shadow: var(--senka); transition: var(--tr); background-color: var(--pozadina) !important; color: var(--tekst) !important; }
 .card:hover { transform: translateY(-5px); box-shadow: var(--senka-j); }
 .card-img-top { border-radius: var(--r-v) var(--r-v) 0 0 !important; }
@@ -345,4 +345,71 @@ footer { background-color: var(--footer); color: #ccc; padding: 48px 20px 18px; 
     .sekcija-naslov h2 { font-size: 1.7rem; }
     .kartice-grid { grid-template-columns: 1fr; }
     .vrednosti-grid { grid-template-columns: 1fr; }
+}
+
+/* --- PADAJUCI MENI --- */
+.nav-lista li {
+    position: relative;
+}
+
+.padajuci-meni {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--pozadina);
+    min-width: 200px;
+    box-shadow: var(--senka-j);
+    border-radius: var(--r);
+    z-index: 1001;
+    padding: 8px 0;
+    border-top: 3px solid var(--primarna);
+}
+
+.padajuci-meni li {
+    display: block;
+    width: 100%;
+}
+
+.padajuci-meni li a {
+    display: block;
+    padding: 10px 18px;
+    color: var(--tekst);
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: var(--tr);
+    border-radius: 0;
+}
+
+.padajuci-meni li a::after {
+    display: none;
+}
+
+.padajuci-meni li a:hover {
+    background-color: var(--svetla);
+    color: var(--primarna);
+    padding-left: 24px;
+}
+
+.nav-lista li:hover > .padajuci-meni {
+    display: block;
+}
+
+/* Strelica na stavci koja ima podmeni */
+.ima-podmeni > a::before {
+    content: ' ▾';
+    font-size: 0.75rem;
+}
+
+@media (max-width: 768px) {
+    .padajuci-meni {
+        position: static;
+        box-shadow: none;
+        border-top: none;
+        border-left: 3px solid var(--primarna);
+        margin-left: 16px;
+        margin-top: 4px;
+        padding: 4px 0;
+    }
 }
